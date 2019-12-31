@@ -1,15 +1,37 @@
+.nav-wrapper {
+    display: flex;
+    padding: 2rem;
+    border: 1px solid #888888;
+    box-shadow: 2px 4px #888888;
+}
+
+.nav-logo {
+    width: 5%;
+}
+
 .flex-tags {
-    /* width: 80%; */
+    width: 100%;
     display: flex;
     flex-direction: row;
-    /* margin: 0; */
+    justify-content: space-evenly;
     font-size: 1.5rem;
-    border: 1px solid rgb(28, 128, 28);
+    /* border: 1px solid rgb(28, 128, 28); */
 }
 
 .flex-tags li{
-    width: 10rem;
+    width: 12rem;
+    font-size: 2rem;
     list-style-type: none;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
 
+.flex-tags a{
+    color: blue;
+    text-decoration: none;
+}
+
+.flex-tags a:hover{
+    color: Green;
+    font-weight: bold;
+    text-decoration: underline;
 }
