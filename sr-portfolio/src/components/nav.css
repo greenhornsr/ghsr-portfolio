@@ -1,0 +1,15 @@
+.flex-tags {
+    /* width: 80%; */
+    display: flex;
+    flex-direction: row;
+    /* margin: 0; */
+    font-size: 1.5rem;
+    border: 1px solid rgb(28, 128, 28);
+}
+
+.flex-tags li{
+    width: 10rem;
+    list-style-type: none;
+    border: 1px solid red;
+
+}
