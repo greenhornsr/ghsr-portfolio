@@ -1,0 +1,48 @@
+/* css variables */
+:root {
+    --primary-pad-marg: 2rem;
+    --primary-border: 1px solid red;
+}
+
+/* portfolio section wrapper */
+.portfolio-user-wrapper {
+    width: 98.2%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--primary-pad-marg);
+    padding-left: var(--primary-pad-marg);
+    /* border: var(--primary-border); */
+}
+
+
+/* content */
+h3 {
+    margin-top: 0;
+    color: silver;
+    /* border: var(--primary-border); */
+}
+
+h1 {
+    margin-top: 1rem;
+    font-size: 10rem;
+    font-weight: bolder;
+    /* border: var(--primary-border); */
+}
+
+span {
+    margin-left: 12.5rem;
+}
+
+.image-wrapper {
+    width: 35%;
+    /* border: var(--primary-border); */
+}
+
+.image-wrapper img {
+    margin-top: 4rem;
+    width: 95%;
+}
+
+.user-detail {
+    width: 40%;
+}
