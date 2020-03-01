@@ -1,6 +1,6 @@
 import React from 'react';
 // image
-import testLogo from "../../assets/test-logo.png"
+import testLogo from "../../assets/images/test-logo.png"
 
 const Logo = () => {
     return (

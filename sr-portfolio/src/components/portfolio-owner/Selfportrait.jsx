@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPic from '../../assets/steve.png';
+import MyPic from '../../assets/images/steve.png';
 import './portfolio-owner.css';
 
 
