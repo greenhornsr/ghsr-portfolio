@@ -1,0 +1,40 @@
+:root {
+    background-color: lime;
+    color: white;
+    font-family: Roboto Light;
+}
+
+body, html {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.number-tickers {
+    font-size: 25vh;
+    overflow: hidden;
+    height: 1em; 
+    background-color: orange;
+    box-shadow: 0 0 0.05em black inset;
+    .digit {
+        float: left;
+        line-height: 1;
+        transition: margin-top 1.75s ease;
+        border-right: 1px solid black;
+        padding: 0 0.075em;
+    }
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5em;
+}

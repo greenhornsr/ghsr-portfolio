@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './language-ticker.css'
 
 // Data
@@ -8,12 +8,25 @@ import { alldevexperience } from '../../assets/data/languages-data';
 import Languages from './Languages';
 
 const LanguageList = () => {
+    let [index, setIndex] = useState(0)
+
+    function setId(){
+        setIndex(index + 1)
+    }
+
+    useEffect(() => {
+        console.log("This is my index state: ", index)
+        setId()
+    },[])
+
     return (
         <div className="language-wrapper">
-            {alldevexperience.map((exp, i) => {
-                return (
-                        <Languages key= {i} index={i} lang={exp} />
-                )
+            {alldevexperience.map((exp, index) => {
+                // if(index === i){
+                    return (
+                        <Languages key={index} lang={exp} />
+                    )
+                // }
             })}
         </div>
     )
