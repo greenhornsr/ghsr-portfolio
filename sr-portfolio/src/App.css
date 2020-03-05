@@ -14,6 +14,13 @@ HTML {
   /* text-align: center; */
 }
 
+.home-body {
+  height: 60vh;
+  margin: 5vh;
+  padding: 5vh;
+  /* border: 1px solid red; */
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

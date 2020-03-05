@@ -24,7 +24,7 @@ h3 {
 
 h1 {
     margin-top: 1rem;
-    font-size: 10rem;
+    font-size: 10vh;
     font-weight: bolder;
     /* border: var(--primary-border); */
 }

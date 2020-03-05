@@ -7,11 +7,13 @@ import LanguageList from '../../components/languages-ticker/LanguageList';
 
 const Home = () => {
     return (
-        <>
+        <div className="home-container" >
             <Nav />
-            <Name/>
-            <LanguageList />
-        </>
+            <section className="home-body">
+                <Name/>
+                <LanguageList />
+            </section>
+        </div>
     )
 }
 

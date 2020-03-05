@@ -15,7 +15,7 @@ const LanguageList = () => {
     }
 
     useEffect(() => {
-        console.log("This is my index state: ", index)
+        // console.log("This is my index state: ", index)
         setId()
     },[])
 
