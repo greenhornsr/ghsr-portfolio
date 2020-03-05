@@ -13,11 +13,27 @@
 }
 
 .inner-about-sections {
+    transform: skewX(5deg);
     height: 30%;
-    overflow: scroll;
+    overflow: hidden;
     margin: 2.5vh auto;
     padding: 2vh;
     width: 40%;
-    box-shadow: 5px 5px limegreen;
+    box-shadow: 5px 5px cornflowerblue;
     border: 1px solid silver;
+}
+
+.lvl2-inner-about {
+    height: 100%;
+    padding: 2vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    transform: skewX(-5deg);
+    /* border: 1px solid red; */
+}
+
+.lvl2-inner-about::-webkit-scrollbar{
+    display: none;
+    width: 0px;
+    background: transparent;
 }
