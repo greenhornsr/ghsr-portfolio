@@ -6,9 +6,7 @@ import './App.css';
 import { aboutme } from './assets/data/aboutme-data';
 
 // Components
-import Home from './components/home/Home';
-import About from './components/about/About';
-import ProjectsList from './components/projects/ProjectsList';
+import {Home, About, ProjectsList} from './components';
 
 function App() {
   return (

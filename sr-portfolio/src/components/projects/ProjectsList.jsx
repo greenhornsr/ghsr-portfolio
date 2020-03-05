@@ -3,7 +3,7 @@ import Project from './Project'
 import './project.css'
 
 // Components
-import Nav from '../navcomponents/Nav';
+import { Nav } from '../index';
 
 const ProjectsList = () => {
     return (

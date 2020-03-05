@@ -6,7 +6,7 @@ import './about.css';
 
 
 // Components
-import Nav from '../navcomponents/Nav';
+import {Nav} from '../index';
 
 // destructuring aboutme from the props object as argument passed to About component.
 const About = ({ aboutme }) => {
