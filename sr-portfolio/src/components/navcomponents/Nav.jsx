@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import "./nav.css";
 
 // Components
@@ -9,10 +10,10 @@ const Nav = () => {
         <div className="nav-wrapper">
             <Logo />
             <ul className="flex-tags">
-                <a href="/"><li>Home</li></a>
-                <a href="/"><li>About</li></a>
-                <a href="/"><li>Projects</li></a>
-                <a href="/"><li>Contact Me</li></a>
+                <NavLink to="/"><li>Home</li></NavLink>
+                <NavLink to="/about"><li>About</li></NavLink>
+                <NavLink to="/projects"><li>Projects</li></NavLink>
+                <NavLink to="/"><li>Contact Me</li></NavLink>
             </ul>
             <Logo />
         </div>

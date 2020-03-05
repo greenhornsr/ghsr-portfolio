@@ -1,0 +1,23 @@
+.about-body {
+    margin: 2.5vh;
+    box-sizing: border-box;
+    /* border: 1px solid silver; */
+}
+
+.about-sections {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+
+.inner-about-sections {
+    height: 30%;
+    overflow: scroll;
+    margin: 2.5vh auto;
+    padding: 2vh;
+    width: 40%;
+    box-shadow: 5px 5px limegreen;
+    border: 1px solid silver;
+}
