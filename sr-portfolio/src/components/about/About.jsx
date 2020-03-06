@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css';
 
+// need to revisit this component as it isn't very DRY...
+
 // direct import of me data; skipping to bring in as props; showcasing ability to pass props
 // import { aboutme } from '../../assets/data/aboutme-data';
 
