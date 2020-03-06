@@ -8,22 +8,22 @@ import { alldevexperience } from '../../assets/data/languages-data';
 import Languages from './Languages';
 
 const LanguageList = () => {   
-    let count = 1; 
     const [lang, setLang] = useState(alldevexperience[0])
     
-    function setLanguage(){
-        setInterval(() => {
-            if(count >= alldevexperience.length){
-                count = 0;
-            }
-                setLang(alldevexperience[count])
-                count ++
-        },3000)
-    }
-
+    
     useEffect(() => {
+        let count = 1; 
+        function setLanguage(){
+            setInterval(() => {
+                if(count >= alldevexperience.length){
+                    count = 0;
+                }
+                    setLang(alldevexperience[count])
+                    count ++
+            },3000)
+        }
         setLanguage()
-    },[count])
+    },[])
 
     return (
         <div className="language-wrapper">

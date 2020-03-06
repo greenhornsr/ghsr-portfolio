@@ -15,12 +15,18 @@ const SocialMedia = () => {
                     <i class="fa fa-linkedin fa-stack-1x"></i>
                 </span>
             </a>
-            {/* <a href="">
+            <a href="mailto:coding61.sr@gmail.com?Subject=Job%20Opportunity&body=I%20am%20interested%20in%20connecting!" target="_top">
                 <span class="fa-stack fa-3x">
                     <i class="fa fa-circle-thin fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x"></i>
+                    <i class="fa fa-envelope fa-stack-1x"></i>
                 </span>
-            </a> */}
+            </a>
+            <a href="/resume/Steve_Rollins_Resume_2020.pdf" download="StevenDRollinsResume">
+                <span class="fa-stack fa-3x">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-file fa-stack-1x"></i>
+                </span>
+            </a>
         </div>
     )
 }
