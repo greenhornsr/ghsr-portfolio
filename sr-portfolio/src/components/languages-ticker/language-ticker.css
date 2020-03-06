@@ -16,11 +16,13 @@
 
 .language-wrapper p {
     font-size: 2rem;
+    font-weight: bolder;
+    color: darkgreen;
     /* margin-left: 3rem;
     margin-right: 3rem; */
     /* border: 1px solid red; */
     padding-left: 100%;
-    animation: language-wrapper 5s linear infinite;
+    animation: language-wrapper 3s linear infinite;
 }
 
 /* Make it move */
