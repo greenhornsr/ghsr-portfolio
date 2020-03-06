@@ -8,7 +8,9 @@ const Project = () => {
                 <iframe src="https://greenhornsr.github.io/portfolio-website/" 
                 height="500"
                 width="1000" 
-                frameborder="0"></iframe>
+                frameborder="0"
+                title="projects"
+                ></iframe>
             </div>
         </div>
     )
