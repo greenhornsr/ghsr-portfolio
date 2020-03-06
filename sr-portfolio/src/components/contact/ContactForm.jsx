@@ -11,7 +11,9 @@ const ContactForm = () => {
             <Nav />
             <div className="contact-body">
                 <h2>Contact Me</h2>
-                <form action="submit">
+                <SocialMedia />
+                <p>If you would like to learn more about my past projects, visit my github.  Learn more about my professional background, visit my LinkedIn.  I have also added a convenient link to email me directly and download my resume.</p>
+                {/* <form action="submit">
                     <label> Name: 
                         <input type="text" name="name" />    
                     </label>
@@ -25,11 +27,8 @@ const ContactForm = () => {
                         <input type="file" name="file" />    
                     </label>
                     <input type="image" src="../navcomponents/Logo" alt="submit" />    
-                </form>
+                </form> */}
             </div>
-            <footer>
-                <SocialMedia />
-            </footer>
         </div>
     )
 }

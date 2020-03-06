@@ -1,10 +1,18 @@
 .contact-body {
     margin: 5vh;
-    padding: 20vh;
-    height: 60vh;
+    padding: 15vh;
+    height: 50vh;
     box-sizing: border-box;
     text-align: center;
     /* border: 1px solid red; */
+}
+
+.contact-body h2 {
+    font-size: 3vw;
+}
+
+.contact-body p{
+    font-size: 1vw;
 }
 
 .social-icons {
