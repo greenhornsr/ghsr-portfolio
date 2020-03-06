@@ -7,9 +7,14 @@
     /* border: 1px solid red; */
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     justify-content: center;
     margin-bottom: 3vh;
     margin-right: 10vh;
+}
+
+.download-resume {
+    cursor: pointer;
+    color: blue;
 }

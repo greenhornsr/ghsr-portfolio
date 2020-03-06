@@ -1,6 +1,9 @@
 import React from 'react'
 
 const SocialMedia = () => {
+    function getResume(){
+        window.open(require('/Users/Rollins/Desktop/Steve/Portfolio/ghsr-portfolio/sr-portfolio/src/assets/resume/Steve_Rollins_Resume_2020.pdf')) 
+    }
     return (
         <div className="social-icons" >
             <a href="https://github.com/greenhornsr/">
@@ -21,12 +24,12 @@ const SocialMedia = () => {
                     <i class="fa fa-envelope fa-stack-1x"></i>
                 </span>
             </a>
-            <a href="/resume/Steve_Rollins_Resume_2020.pdf" download="StevenDRollinsResume">
+            <div className="download-resume" onClick={getResume} >
                 <span class="fa-stack fa-3x">
                     <i class="fa fa-circle-thin fa-stack-2x"></i>
                     <i class="fa fa-file fa-stack-1x"></i>
                 </span>
-            </a>
+            </div>
         </div>
     )
 }
