@@ -1,0 +1,14 @@
+.contact-body {
+    margin: 5vh;
+    padding: 20vh;
+    height: 60vh;
+    box-sizing: border-box;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}

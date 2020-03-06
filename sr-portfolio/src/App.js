@@ -6,7 +6,7 @@ import './App.css';
 import { aboutme } from './assets/data/aboutme-data';
 
 // Components
-import {Home, About, ProjectsList} from './components';
+import {Home, About, ProjectsList, ContactForm} from './components';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" render={() => <About aboutme={aboutme} />} />
         <Route exact path="/projects" render={(props) => <ProjectsList {...props} />} />
+        <Route exact path="/contact" render={(props) => <ContactForm {...props} />} />
       </Switch>
     </div>
   );
