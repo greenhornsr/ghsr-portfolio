@@ -1,0 +1,36 @@
+.about-body {
+    margin: 2.5vh;
+    box-sizing: border-box;
+    /* border: 1px solid silver; */
+}
+
+.about-sections {
+    height: 71.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+
+.inner-about-sections {
+    transform: skewX(5deg);
+    height: 30%;
+    overflow: hidden;
+    margin: 2.5vh auto;
+    padding: 2vh;
+    width: 40%;
+    box-shadow: 5px 5px cornflowerblue;
+    border: 1px solid silver;
+}
+
+.lvl2-inner-about {
+    height: 80%;
+    padding: 2vh;
+    overflow:scroll;
+    transform: skewX(-5deg);
+    /* border: 1px solid red; */
+}
+
+.lvl2-inner-about::-webkit-scrollbar{
+    display: none;
+}
