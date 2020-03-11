@@ -35,3 +35,31 @@
     font-weight: bold;
     text-decoration: underline;
 }
+
+/* Tablet */
+@media(max-width: 800px) {
+    /* .nav-wrapper{
+        text-align: center;
+    } */
+    .flex-tags{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+    .navlinks {
+        width: 100%;
+        padding: 4vh 0;
+        border-bottom: 1px solid black;      
+    }
+    .navlinks li{
+        width: 100%;
+        font-size: 4vh;
+        text-align: center;
+    }
+    .nav-logo {
+        display: none;
+    }
+}
