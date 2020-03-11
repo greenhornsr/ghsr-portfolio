@@ -14,11 +14,22 @@ HTML {
   /* text-align: center; */
 }
 
+.home-container {
+  border: 1px solid blue;
+}
+
 .home-body {
   height: 60vh;
   margin: 5vh;
   padding: 5vh;
   /* border: 1px solid red; */
+}
+
+/* tablet Home container */
+@media(max-width: 800px){
+  .home-body {
+    margin: 0;
+  }
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
