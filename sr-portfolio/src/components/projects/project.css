@@ -1,9 +1,42 @@
 .project-body {
     margin: 0 auto;
-    height: 80vh;
-    display: flex;
+    padding: 5vh;
+    height: 70vh;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     border: 1px solid red;
+}
+
+.project-iframe {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    /* height: 500;
+    width: 1000;  */
+    /* border: 1px solid green; */
+}
+
+.project-iframe iframe{
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+    padding-top: 75%;
+}
+
+/* Phone 800px */
+@media(max-width: 500px) {
+    .project-body{
+        margin-top: 10vh;
+        padding: 0;
+    }
 }
