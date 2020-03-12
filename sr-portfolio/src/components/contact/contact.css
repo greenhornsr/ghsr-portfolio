@@ -50,3 +50,17 @@
         /* border: 1px solid red; */
     }
 }
+
+/* Phone 500px */
+@media(max-width: 500px) {
+    .contact-body{
+        margin: 0;
+        margin-top: 25%;
+        align-content: center;
+        padding: 1vh;
+        /* border: 1px solid red; */
+    }
+    .social-icons a, .download-resume{
+        width: 25%;
+    }
+}
