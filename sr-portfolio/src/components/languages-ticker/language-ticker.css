@@ -30,3 +30,12 @@
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
+
+
+/* Tablet */
+@media(max-width: 800px) {
+    .language-wrapper p{
+        padding-top: 5vh;
+        font-size: 3vh;
+    }
+}

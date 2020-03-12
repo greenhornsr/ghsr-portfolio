@@ -16,7 +16,7 @@
 
 
 /* content */
-h3 {
+.h3 {
     margin-top: 0;
     color: silver;
     /* border: var(--primary-border); */
@@ -45,4 +45,33 @@ span {
 
 .user-detail {
     width: 40%;
+}
+
+/* Tablet */
+@media(max-width: 800px){
+    .portfolio-user-wrapper{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .portfolio-user-wrapper .user-detail h1, h3, span{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .user-detail {
+    width: 100%;
+    /* height: 4vh; */
+    /* border: 1px solid red; */
+    }
+    .user-detail h1, span{
+    font-size: 4rem;
+    /* border: 1px solid green; */
+    }
+    .image-wrapper {
+        width: 100%;
+    }
 }
