@@ -34,3 +34,25 @@
 .lvl2-inner-about::-webkit-scrollbar{
     display: none;
 }
+
+
+/* Tablet */
+@media(max-width: 800px) {
+    .about-sections {
+        height: auto;
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+    .inner-about-sections {
+        width: 100%;
+        margin: 3vh;
+    }
+}
+
+
+/* Phone */
+@media(max-width: 500px) {
+    .inner-about-sections {
+        height: 25vh;
+    }
+}
