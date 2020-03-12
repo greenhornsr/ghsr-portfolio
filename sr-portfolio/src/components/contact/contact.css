@@ -31,3 +31,22 @@
     cursor: pointer;
     color: blue;
 }
+
+/* Tablet 800px */
+@media(max-width: 800px) {
+    .contact-body{
+        padding: 5vh;
+        /* border: 1px solid red; */
+    }
+    .contact-body h2 {
+        margin-bottom: 5vh;
+    }
+    .contact-body p {
+        font-size: 2vw;
+    }
+    .social-icons {
+        width: 100%;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+}
