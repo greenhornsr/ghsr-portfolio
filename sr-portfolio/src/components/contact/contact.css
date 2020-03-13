@@ -51,9 +51,9 @@
     }
 }
 
-/* Phone 500px */
+/* Phone Portrait 500px */
 @media(max-width: 500px) {
-    .contact-body{
+    .contact-body {
         margin: 0;
         margin-top: 15%;
         align-content: center;
@@ -67,3 +67,6 @@
         width: 25%;
     }
 }
+
+/* Phone Landscape */
+
