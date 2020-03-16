@@ -4,7 +4,7 @@ export const aboutme = {
 
     desc2: "I feel strongest in React/Node/JS so far but I am not opposed to strengthening my gaps or even being exposed to new content and concepts.  Here is what I have explored so far:",
 
-    desc3: "Languages: HTML, CSS, JavaScript, Python, SQL, Swift", desc4: "Preprocessor: LESS, SASS",desc5: "Frameworks: Angular, React, Django, Node.js", desc6: "Databases: SQL, PostgreSQL, MongoDB"
+    desc3: "Languages: HTML, CSS, JavaScript, Python, SQL, Swift", desc4: "Preprocessor: LESS, SASS",desc5: "Frameworks: GraphQL, Angular, React, Django, Node.js", desc6: "Databases: SQL, PostgreSQL, MongoDB"
     },
 
     fi: {h3: "Family and Interests", desc: 
