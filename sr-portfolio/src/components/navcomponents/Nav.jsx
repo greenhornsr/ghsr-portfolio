@@ -10,10 +10,10 @@ const Nav = () => {
         <div className="nav-wrapper">
             <Logo />
             <ul className="flex-tags">
-                <NavLink className="navlinks" to="/"><li>Home</li></NavLink>
-                <NavLink className="navlinks" to="/about"><li>About</li></NavLink>
-                <NavLink className="navlinks" to="/projects"><li>Projects</li></NavLink>
-                <NavLink className="navlinks" to="/contact"><li>Contact Me</li></NavLink>
+                <NavLink className="navlinks" activeClassName="selected-nav" exact to="/">Home</NavLink>
+                <NavLink className="navlinks" activeClassName="selected-nav" to="/about">About</NavLink>
+                <NavLink className="navlinks" activeClassName="selected-nav" to="/projects">Projects</NavLink>
+                <NavLink className="navlinks" activeClassName="selected-nav" to="/contact">Contact Me</NavLink>
             </ul>
             <Logo />
         </div>
