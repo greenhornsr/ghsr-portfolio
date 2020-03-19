@@ -51,9 +51,14 @@
     }
     .navlinks {
         width: 100%;
-        padding: 4vh 0;
+        padding: 1vh 0;
         border-bottom: 1px solid black;      
     }
+
+    .navlinks:nth-last-child(1){
+        border-bottom: none;
+    }
+
     .navlinks li{
         width: 100%;
         font-size: 4vh;
