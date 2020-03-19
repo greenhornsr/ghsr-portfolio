@@ -1,4 +1,4 @@
-export const alldevexperience = ["HTML", "CSS", "JavaScript", "Python", "Swift", "LESS/SASS", "GraphQL URQL/PRISMA", "Angular", "React", "Django", "Node.js", "SQL", "MongoDB", "PostgreSQL"]
+export const alldevexperience = ["HTML", "CSS", "JavaScript", "React", "Python", "LESS/SASS", "GraphQL URQL/PRISMA",  "Node.js", "SQL", "PostgreSQL", "Swift", "Angular", "Django","MongoDB"]
 
 export const devexperience = {
     devlanguages: ["HTML", "CSS", "JavaScript", "Python", "SQL", "Swift"],
