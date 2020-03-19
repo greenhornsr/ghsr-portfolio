@@ -75,3 +75,19 @@ span {
         width: 100%;
     }
 }
+
+/* Phone Landscape */
+@media(max-width: 900px) {
+    .portfolio-user-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        /* border: 1px solid blue; */
+    }
+    .image-wrapper {
+        width: 80%;
+        /* border: 1px solid red; */
+    }
+
+}

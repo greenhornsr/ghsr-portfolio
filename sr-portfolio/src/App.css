@@ -14,10 +14,6 @@ HTML {
   /* text-align: center; */
 }
 
-/* .home-container {
-  border: 1px solid blue;
-} */
-
 .home-body {
   height: 60vh;
   margin: 5vh;
@@ -26,9 +22,18 @@ HTML {
 }
 
 /* tablet Home container */
-@media(max-width: 800px){
+@media(max-width: 800px) {
   .home-body {
     margin: 0;
+  }
+}
+
+/* phone landscape */
+@media(max-width: 900px) {
+  .home-body {
+    /* width: 0 auto; */
+    height: auto;
+    border: 1px solid red;  
   }
 }
 
