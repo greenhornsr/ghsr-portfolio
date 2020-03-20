@@ -39,3 +39,10 @@
         font-size: 3vh;
     }
 }
+
+/* Phone Landscape */
+@media(max-width: 900px) {
+    .language-wrapper {
+        margin: 0;
+    }
+}
