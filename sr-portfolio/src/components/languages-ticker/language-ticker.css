@@ -44,5 +44,11 @@
 @media(max-width: 900px) {
     .language-wrapper {
         margin: 0;
+        padding: 0;
+        /* border: 1px solid red; */
+    }
+    .language-wrapper p{
+        padding-top: 2vh;
+        font-size: 3vh;
     }
 }

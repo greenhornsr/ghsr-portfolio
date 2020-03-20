@@ -1,0 +1,5 @@
+# Redirects for netlify deployment.  Fixes the 404 issue when a user refreshes
+/home       /
+/about      /about
+/projects   /projects
+/contact    /contact

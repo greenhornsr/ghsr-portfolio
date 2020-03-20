@@ -76,6 +76,7 @@ span {
     }
 }
 
+
 /* Phone Landscape */
 @media(max-width: 900px) {
     .portfolio-user-wrapper {
@@ -87,7 +88,11 @@ span {
     }
     .image-wrapper {
         width: 80%;
+        margin-top: 0;
+        order: 1;
         /* border: 1px solid red; */
     }
-
+    .image-wrapper img {
+        margin-top: 2vh;
+    }
 }
