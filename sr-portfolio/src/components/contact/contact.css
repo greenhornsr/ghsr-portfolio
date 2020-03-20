@@ -69,4 +69,11 @@
 }
 
 /* Phone Landscape */
-
+@media(max-width: 900px) {
+    .contact-body {
+        height: 60vh;
+    }
+    .contact-body p {
+        font-size: 3vh;
+    }
+}
