@@ -1,6 +1,1 @@
-# Redirects for netlify deployment.  Fixes the 404 issue when a user refreshes
 /*    /index.html   
-/home       /
-/about      /about
-/projects   /projects
-/contact    /contact
