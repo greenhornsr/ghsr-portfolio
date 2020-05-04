@@ -7,7 +7,6 @@ const SocialMedia = () => {
         console.log(activeElement)
     }
 
-
     return (
         <div className="social-icons" >
             <a href="https://github.com/greenhornsr/" target="_blank">
