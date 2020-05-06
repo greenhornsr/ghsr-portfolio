@@ -9,7 +9,7 @@ const Name = () => {
     return (
         <div className="portfolio-user-wrapper">
             <div className="user-detail">
-                <h3>Software Engineer</h3>
+                <h3>Full Stack Web Developer</h3>
                 <h1>Steven D. <span>Rollins</span></h1>
             </div>
             <Selfportrait/>
