@@ -20,7 +20,44 @@
     padding: 2vh;
     width: 40%;
     box-shadow: 5px 5px cornflowerblue;
+    /* box-shadow: 5px 5px  rgb(224, 12, 12); */
+    transition: transform .5s; /* Animation */
     border: 1px solid silver;
+}
+
+
+.software-engineer:hover {
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: scale(1.5,1.5) translate(40%, 40%) skewX(5deg);
+}
+
+
+.family:hover {
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: scale(1.5,1.5) translate(-40%, 40%) skewX(5deg);
+}
+
+
+.education:hover {
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: scale(1.5,1.5) translate(40%, -40%) skewX(5deg);
+}
+
+.background:hover {
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: scale(1.5,1.5) translate(-40%, -40%) skewX(5deg);
 }
 
 .lvl2-inner-about {
@@ -31,9 +68,28 @@
     /* border: 1px solid red; */
 }
 
-.lvl2-inner-about::-webkit-scrollbar{
-    display: none;
+
+/* Scrollbar */
+.lvl2-inner-about::-webkit-scrollbar {
+    width: 10px;
 }
+
+
+.lvl2-inner-about::-webkit-scrollbar-track:vertical {
+    background-color:rgba(0, 0, 255, 0.3);
+    box-shadow: inset 0 0 10px blue;
+    border-radius: 10px;
+}
+
+
+.lvl2-inner-about::-webkit-scrollbar-thumb {
+    height: 1px;
+    background-color: blue;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* End Scrollbar */
 
 
 /* Tablet */
