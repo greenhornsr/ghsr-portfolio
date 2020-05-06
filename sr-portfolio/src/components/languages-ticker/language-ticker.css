@@ -15,7 +15,7 @@
     width: 12%;
     font-size: 2rem;
     font-weight: bolder;
-    color: darkgreen;
+    color: rgb(224, 12, 12);
     text-align: center;
     padding-left: 100%;
     animation: language-wrapper 3s linear infinite;
