@@ -26,10 +26,19 @@
     color: blue;
 }
 
+.social-icons a:hover {
+    cursor: pointer;
+    color: darkturquoise;
+}
+
 
 .download-resume {
-    cursor: pointer;
     color: blue;
+}
+
+.download-resume:hover{
+    cursor: pointer;
+    color: darkturquoise;
 }
 
 /* Tablet 800px */

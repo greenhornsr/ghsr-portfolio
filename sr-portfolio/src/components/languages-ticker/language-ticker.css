@@ -67,7 +67,7 @@
 /* Phone Landscape */
 @media(max-width: 900px) {
     .language-wrapper {
-        margin: 0;
+        margin-left: 10vw;
         padding: 0;
         /* border: 1px solid red; */
     }
