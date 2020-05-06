@@ -1,5 +1,5 @@
 .contact-body {
-    margin: 5vh;
+    /* margin: 5vh; */
     padding: 15vh;
     height: 50vh;
     box-sizing: border-box;
@@ -8,6 +8,7 @@
 }
 
 .contact-body h2 {
+    margin-bottom: 8vh;
     font-size: 3vh;
 }
 
@@ -18,7 +19,7 @@
 .social-icons {
     display: flex;
     justify-content: center;
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
     margin-right: 10vh;
 }
 
@@ -26,10 +27,19 @@
     color: blue;
 }
 
+.social-icons a span:hover {
+    cursor: pointer;
+    color:  rgb(224, 12, 12);
+}
+
 
 .download-resume {
-    cursor: pointer;
     color: blue;
+}
+
+.download-resume span:hover{
+    cursor: pointer;
+    color:  rgb(224, 12, 12);
 }
 
 /* Tablet 800px */

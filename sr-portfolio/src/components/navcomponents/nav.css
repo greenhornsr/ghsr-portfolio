@@ -30,14 +30,14 @@
 
 .flex-tags a:hover{
     font-weight: bold;
+    color:  rgb(224, 12, 12);
     /* text-decoration: underline; */
 }
 
 .selected-nav{
-    color: darkgreen;
     font-weight: bold;
     text-decoration: underline;
-    /* background-color: orange; */
+    text-decoration-color:  rgb(224, 12, 12);
 }
 
 /* Tablet */

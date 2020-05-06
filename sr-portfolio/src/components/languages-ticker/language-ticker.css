@@ -1,28 +1,52 @@
 .language-wrapper {
     margin: 0 auto;
     width: 50vw;
+    /* height: 20vh; */
     margin-top: 5%;
     display: flex;
+    flex-direction: column;
     overflow: hidden;
-    /* border: 1px solid red; */
     white-space: nowrap;
+    /* border: 1px solid red; */
 }
 
-/* .marquee {
-    animation: language-wrapper 5s linear infinite;
-    display: inline-block;
-    padding-left: 100%;
-} */
-
 .language-wrapper p {
+    margin-top: 0rem;
+    width: 12%;
     font-size: 2rem;
     font-weight: bolder;
-    color: darkgreen;
-    /* margin-left: 3rem;
-    margin-right: 3rem; */
-    /* border: 1px solid red; */
+    color: rgb(224, 12, 12);
+    text-align: center;
     padding-left: 100%;
     animation: language-wrapper 3s linear infinite;
+    /* border: 1px solid green; */
+}
+
+
+/* .MARQUEE {
+    width: 100%;
+    animation: language-wrapper 5s linear infinite;
+    border: 1px solid red;
+} */
+
+.marq-div1 {
+    /* width: 120%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.marq-div-img{
+    height: 12vh;
+    padding-top: 2.3vh;
+    /* border: 1px solid red;   */
+}
+
+.marq-div1 img {
+    width: 12%;
+    text-align: center;
+    padding-left: 100%;
 }
 
 /* Make it move */
@@ -43,7 +67,7 @@
 /* Phone Landscape */
 @media(max-width: 900px) {
     .language-wrapper {
-        margin: 0;
+        margin-left: 10vw;
         padding: 0;
         /* border: 1px solid red; */
     }
