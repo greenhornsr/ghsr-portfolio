@@ -23,7 +23,6 @@ const LanguageList = () => {
         }
         setLanguage()
     },[])
-    console.log("icon state: ", icon)
     return (
         <div className="language-wrapper">
             <Languages icon={icon} />

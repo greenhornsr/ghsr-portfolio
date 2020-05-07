@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Languages = (props) => {
-    console.log(props)
     return (
         <>
         {/* <div className="MARQUEE">   */}
