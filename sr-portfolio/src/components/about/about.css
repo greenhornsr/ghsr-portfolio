@@ -20,57 +20,79 @@
     padding: 2vh;
     width: 40%;
     box-shadow: 5px 5px cornflowerblue;
-    /* box-shadow: 5px 5px  rgb(224, 12, 12); */
     transition: transform .5s; /* Animation */
     border: 1px solid silver;
 }
 
 
+.lvl2-inner-about h3 {
+    display: inline-block;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+
+.lvl2-inner-about h5{
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    color: gray;
+    text-align: end;
+}
+
+
+.lvl2-inner-about p {
+    font-size: 1em;
+}
+
+/* Desktop hover effects */
 .software-engineer:hover {
+    font-size: 6px;
     background-color: white;
-    top: 50%;
-    left: 50%;
     z-index: 1;
-    transform: scale(1.5,1.5) translate(40%, 40%) skewX(5deg);
+    transform: scale(2.25, 2.25) translate(25%, 30%) skewX(5deg);
 }
 
 
 .family:hover {
+    font-size: 6px;
     background-color: white;
-    top: 50%;
-    left: 50%;
     z-index: 1;
-    transform: scale(1.5,1.5) translate(-40%, 40%) skewX(5deg);
+    transform: scale(2.25, 2.25) translate(-26.5%, 30%) skewX(5deg);
 }
 
 
 .education:hover {
+    font-size: 6px;
     background-color: white;
-    top: 50%;
-    left: 50%;
     z-index: 1;
-    transform: scale(1.5,1.5) translate(40%, -40%) skewX(5deg);
+    transform: scale(2.25, 2.25) translate(25%, -31.5%) skewX(5deg);
 }
 
+
 .background:hover {
+    font-size: 6px;
     background-color: white;
-    top: 50%;
-    left: 50%;
     z-index: 1;
-    transform: scale(1.5,1.5) translate(-40%, -40%) skewX(5deg);
+    transform: scale(2.25, 2.25) translate(-26.5%, -31.5%) skewX(5deg);
 }
+
+/* remove hover instruction */
+.software-engineer:hover h5, .family:hover h5, .education:hover h5, .background:hover h5{
+    display: none;
+}
+
 
 .lvl2-inner-about {
     height: 80%;
     padding: 2vh;
     overflow:scroll;
     transform: skewX(-5deg);
-    /* border: 1px solid red; */
 }
 
 
 /* Scrollbar */
-.lvl2-inner-about::-webkit-scrollbar {
+/* .lvl2-inner-about::-webkit-scrollbar {
     width: 10px;
 }
 
@@ -86,8 +108,7 @@
     height: 1px;
     background-color: blue;
     border-radius: 10px;
-    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
-}
+} */
 
 /* End Scrollbar */
 
@@ -103,12 +124,52 @@
         width: 100%;
         margin: 3vh;
     }
+    /* hover effects */
+    .software-engineer:hover {
+        font-size: 1em;
+        background-color: white;
+        z-index: 1;
+        transform: scale(1, 1) translate(0%, 0%) skewX(5deg);
+    }
+
+
+    .family:hover {
+        font-size: 1em;
+        background-color: white;
+        z-index: 1;
+        transform: scale(1, 1) translate(0%, 0%) skewX(5deg);
+    }
+
+
+    .education:hover {
+        font-size: 1em;
+        background-color: white;
+        z-index: 1;
+        transform: scale(1, 1) translate(0%, 0%) skewX(5deg);
+    }
+
+
+    .background:hover {
+        font-size: 1em;
+        background-color: white;
+        z-index: 1;
+        transform: scale(1, 1) translate(0%, 0%) skewX(5deg);
+    }
+
+    /* remove hover instruction */
+    .software-engineer h5, .family h5, .education h5, .background h5{
+        display: none;
+    }
 }
 
 
 /* Phone */
 @media(max-width: 500px) {
     .inner-about-sections {
-        height: 25vh;
+        height: auto;
+    }
+
+    .lvl2-inner-about {
+        height: auto;
     }
 }
