@@ -4,6 +4,7 @@ HTML {
 }
 
 .App {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   width: 80vw;
   /* max-width: 100%; */
   min-height: 90vh;
