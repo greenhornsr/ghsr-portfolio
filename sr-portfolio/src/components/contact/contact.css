@@ -33,6 +33,10 @@
 }
 
 
+.sm-sections {
+    margin-left: 18vh;
+}
+
 .download-resume {
     color: blue;
 }
@@ -76,6 +80,9 @@
     .social-icons a, .download-resume{
         width: 25%;
     }
+    .sm-sections {
+        margin-left: 2vh;
+    }
 }
 
 /* Phone Landscape */
@@ -85,5 +92,8 @@
     }
     .contact-body p {
         font-size: 3vh;
+    }
+    .sm-sections {
+        margin-left: 0vh;
     }
 }
