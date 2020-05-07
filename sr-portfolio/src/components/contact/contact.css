@@ -12,8 +12,18 @@
     font-size: 3vh;
 }
 
-.contact-body p{
+.contact-body p {
     font-size: 2vh;
+}
+
+.contact-body p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact-body p a:hover {
+    color: rgb(224, 12, 12);
+    text-decoration: none;
 }
 
 .social-icons {
