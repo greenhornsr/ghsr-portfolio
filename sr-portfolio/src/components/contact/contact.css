@@ -1,9 +1,11 @@
 .contact-body {
-    /* margin: 5vh; */
-    padding: 15vh;
-    height: 50vh;
+    margin: 5vh;
+    margin-top: 8vh;
+    padding: 5vh;
+    height: 60vh;
     box-sizing: border-box;
     text-align: center;
+    font-size: 1.5rem;
     /* border: 1px solid red; */
 }
 
@@ -29,6 +31,7 @@
 .social-icons {
     display: flex;
     justify-content: center;
+    font-size: 1em;
     margin-bottom: 6vh;
     margin-right: 10vh;
 }
@@ -56,10 +59,10 @@
     color:  rgb(224, 12, 12);
 }
 
-/* Tablet 800px */
-@media(max-width: 800px) {
+/* Tablet 1050px */
+@media(max-width: 1050px) {
     .contact-body{
-        padding: 5vh;
+        padding: 0vh;
         /* border: 1px solid red; */
     }
     .contact-body h2 {
@@ -73,37 +76,59 @@
         justify-content: space-between;
         /* border: 1px solid red; */
     }
-}
-
-/* Phone Portrait 500px */
-@media(max-width: 500px) {
-    .contact-body {
-        margin: 0;
-        margin-top: 6%;
-        align-content: center;
-        padding: 1vh;
-        /* border: 1px solid red; */
-    }
-    .contact-body p {
-        font-size: 2vh;
-    }
     .social-icons a, .download-resume{
-        width: 25%;
+        font-size: .8em;
     }
     .sm-sections {
-        margin-left: 2vh;
+        margin-left: 0vh;
     }
 }
 
 /* Phone Landscape */
-@media(max-width: 900px) {
+@media(max-width: 740px) {
     .contact-body {
-        height: 60vh;
+        height: auto;
+        margin: 7vh;
+        /* border: 1px solid red; */
+    }
+    .contact-body h2 {
+        font-size: 1.5em;
+        margin-bottom: 6vh;
     }
     .contact-body p {
         font-size: 3vh;
     }
+    .social-icons a, .download-resume{
+        font-size: .7em;
+    }
     .sm-sections {
         margin-left: 0vh;
+    }
+}
+
+/* Phone Portrait 500px */
+@media(max-width: 450px) {
+    .contact-body {
+        margin: 0;
+        margin-top: 5vh;
+        height: auto;
+        padding: 3vh;
+        padding-bottom: 5vh;
+        /* border: 1px solid red; */
+    }
+    .contact-body p {
+        font-size: 1em;
+    }
+    .social-icons{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .social-icons a, .download-resume{
+        font-size: .5em;
+    }
+    .sm-sections {
+        margin-left: 2vh;
+        margin-right: 2vh;
+        /* border: 1px solid red; */
     }
 }
