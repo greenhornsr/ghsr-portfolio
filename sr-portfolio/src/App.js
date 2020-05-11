@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" render={() => <About aboutme={aboutme} />} />
-        <Route exact path="/projects" render={(props) => <ProjectsList {...props} />} />
-        <Route exact path="/contact" render={(props) => <ContactForm {...props} />} />
+        <Route path="/about" render={() => <About aboutme={aboutme} />} />
+        <Route path="/projects" render={(props) => <ProjectsList {...props} />} />
+        <Route path="/contact" render={(props) => <ContactForm {...props} />} />
       </Switch>
     </div>
   );
