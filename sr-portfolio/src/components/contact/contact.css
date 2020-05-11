@@ -84,7 +84,7 @@
     }
 }
 
-/* Phone Landscape */
+/* Phone 740px Landscape */
 @media(max-width: 740px) {
     .contact-body {
         height: auto;

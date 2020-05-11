@@ -11,16 +11,16 @@
 
 .project-iframe {
     overflow: hidden;
-    padding-top: 56%;
+    padding-top: 56.25%;
     position: relative;
-    /* height: 500;
-    width: 1000;  */
+    /* height: 100%;
+    width: 100%;  */
     /* border: 1px solid green; */
 }
 
 .project-iframe iframe{
     border: 0;
-    height: 100%;
+    height: 95%;
     left: 0;
     position: absolute;
     top: 0;
@@ -33,10 +33,42 @@
     padding-top: 75%;
 }
 
+/* Tablet 1050px */
+@media(max-width: 1050px) {
+    .project-body{
+        margin-top: 0vh;
+        padding: 0;
+    }
+    .project-iframe{
+        height: 100%;
+        margin: 1vh;
+    }
+    .project-iframe iframe{
+        height: 68vh;
+    }
+}
+
+
+/* Phone 740px Landscape */
+
+
 /* Phone 800px */
+
+
+/* Phone Portrait 500px */
 @media(max-width: 500px) {
     .project-body{
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
         padding: 0;
+    }
+    .project-iframe{
+        height: 36vh;
+        margin: 1vh;
+        /* border: 1px solid red; */
+
+    }
+    .project-iframe iframe{
+        height: 70vh;
+        /* border: 1px solid red; */
     }
 }
