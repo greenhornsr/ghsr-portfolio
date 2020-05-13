@@ -3,8 +3,7 @@ import React from 'react'
 const SocialMedia = () => {
     function getResume(){
         window.open(require('../../assets/resume/Steve_Rollins_Resume_MAY_2020.pdf')) 
-        const activeElement = document.getElementById('.download-resume')
-        console.log(activeElement)
+        // const activeElement = document.getElementById('.download-resume')
     }
 
     return (
