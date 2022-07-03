@@ -2,14 +2,14 @@ import React from 'react'
 
 const SocialMedia = () => {
     function getResume(){
-        window.open(require('../../assets/resume/Steve_Rollins_Resume_MAY_2020.pdf')) 
+        window.open(require('../../assets/resume/Steve_Rollins_Resume_July_2022.pdf')) 
         // const activeElement = document.getElementById('.download-resume')
     }
 
     return (
         <div className="social-icons" >
             <section className="sm-sections" >
-                <a href="https://github.com/greenhornsr/" target="_blank">
+                <a href="https://github.com/greenhornsr/" target="_blank" rel="noopener noreferrer">
                     <span className="fa-stack fa-3x">
                         <i className="fa fa-circle-thin fa-stack-2x"></i>
                         <i className="fa fa-github fa-stack-1x"></i>
@@ -17,7 +17,7 @@ const SocialMedia = () => {
                 </a>
             </section>
             <section className="sm-sections" >
-                <a href="https://linkedin.com/in/steven-rollins" target="_blank">
+                <a href="https://linkedin.com/in/steven-rollins" target="_blank" rel="noopener noreferrer">
                     <span className="fa-stack fa-3x">
                         <i className="fa fa-circle-thin fa-stack-2x"></i>
                         <i className="fa fa-linkedin fa-stack-1x"></i>
