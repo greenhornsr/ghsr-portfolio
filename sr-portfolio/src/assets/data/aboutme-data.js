@@ -1,6 +1,6 @@
 export const aboutme = {
     name: "Steven D. Rollins",
-    se: {h3: "Software Engineer", desc: "I have been at this coding \O/ thing steadily with diligence for the last several months; off and on for the past several years.",
+    se: {h3: "Software Engineer", desc: "I have been at this coding thing steadily with diligence for the last several months; off and on for the past several years.",
 
     desc2: "I feel strongest in React/Node/JS but am not opposed to strengthening my gaps or even being exposed to new content and concepts. Here is what I have explored so far:",
 
