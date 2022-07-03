@@ -2,7 +2,7 @@ import React from 'react'
 
 const SocialMedia = () => {
     function getResume(){
-        window.open(require('../../assets/resume/Steve_Rollins_Resume_MAY_2020.pdf')) 
+        window.open(require('../../assets/resume/Steve_Rollins_Resume_JUNE_2022.pdf')) 
         // const activeElement = document.getElementById('.download-resume')
     }
 
